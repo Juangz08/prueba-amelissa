@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prueba DH</title>
+	<link rel="icon" type="imagen.png" href="img/juanlogo.png">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+	<nav class="navbar navbar-dark fixed-top navbar-expand-lg">
+		<div class="container-fluid">
+	 		<a class="navbar-brand" href="#">
+			    <img src="img/juanlogo.png" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+			 </a>
+				
+
+		  	<div class="menu-destopk">
+				<ul  class="nav navbar-nav navbar-right">
+					<li><a class="nav-link" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+					<path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+					</svg>Inicio</a></li>
+					
+					<li><a class="nav-link disabled" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+					</svg>Productos</a></li>
+					
+					<li><a class="nav-link" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M2 2v4.586l7 7L13.586 9l-7-7H2zM1 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2z"/>
+					<path fill-rule="evenodd" d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+					</svg>Ofertas</a></li>
+					
+
+					<li><a class="nav-link" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pencil-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+					<path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+					</svg>Blog</a></li>
+					
+					<li></li><a class="nav-link" href="#">
+					<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+					</svg>Contacto</a></li>
+				</ul>
+			</div>
+
+			<div class="menu-movil ">
+				<div class="collapse" id="navbarToggleExternalContent">
+					<ul  class="nav navbar-nav navbar-right">
+						<li><a class="nav-link" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z"/>
+						<path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+						</svg>Inicio</a></li>
+						
+						<li><a class="nav-link disabled" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z"/>
+						</svg>Productos</a></li>
+						
+						<li><a class="nav-link" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-tag" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M2 2v4.586l7 7L13.586 9l-7-7H2zM1 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 1 6.586V2z"/>
+						<path fill-rule="evenodd" d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm0 1a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+						</svg>Ofertas</a></li>
+						
+	
+						<li><a class="nav-link" href="#"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-pencil-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+						<path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+						</svg>Blog</a></li>
+						
+						<li></li><a class="nav-link" href="#">
+						<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+						</svg>Contacto</a></li>
+					</ul>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				
+			</div>
+
+		</div>
+		</div>
+	</nav>
+</header>
+
+<section class="slidershow">
+	<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+		  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+		  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+		  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+		  <div class="carousel-item active">
+			<img src="img/html.jpg" class="d-block w-100" alt="HTML">
+			<div class="carousel-caption d-none d-md-block">
+			  <h3>Desarrollo Front End</h3>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="img/css.jpg" class="d-block w-100" alt="CSS">
+			<div class="carousel-caption d-none d-md-block">
+			  <h3>CSS</h3>
+			</div>
+		  </div>
+		  <div class="carousel-item">
+			<img src="img/seo.jpg" class="d-block w-100" alt="seo">
+			<div class="carousel-caption d-none d-md-block">
+			  <h3>SEO</h3>
+			</div>
+		  </div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+		  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Siguiente</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+		  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		  <span class="sr-only">Atras</span>
+		</a>
+	  </div>
+	</section>	
+
+	<section class="aptitudes " >
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 presentacion" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+			 <h3 class="nombrej">Soy Juan Fernando Garcia</h3>
+			 <p>
+				Un poco sobre mi: tengo 29 años, amante de los gatos, la comida deliciosa, los videojuegos y los buenos libros de fantasía.
+				 <br><br>
+				Soy desarrollador web front end, he trabajado en varias empresas en Medellín, como independiente he logrado tener relaciones con personas de Colombia, Usa, Costa Rica entre otros.
+				<br><br>
+				Estoy orgulloso de mis conocimientos en lo que respecta al desarrollo web, desde la programación, marketing digital, posicionamiento web y diseño.
+				<br><br>
+				Con todos estos conocimientos me he centrado en los ecommerce, donde puedo explotar mis conocimientos para que los clientes y usuarios sientan una experiencia diferente en cada sitio realizado.
+				<br><br><br>
+				
+			 </p>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 " data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+				<div class="habilidades">
+					<p><strong>A continuacion algunas de mis habilidades:</strong></p>
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+					HTML5 95%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+					CSS3 85%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+					JAVASCRIPT 65%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+					WORDPRESS 95%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+					PRESTASHOP 70%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+					SHOPIFY 70%
+					</div>
+				</div>
+				
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+					SEO 75%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+					UX/UI 80%
+					</div>
+				</div>
+
+				<div class="progress">
+					<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+						GANAS DE APRENDER 100%
+					</div>
+				</div>
+			</div>
+			</div>
+		  </div>
+		</section>
+		  <section class="historia">
+			<div class="row ">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-aos="zoom-in-right">
+					<img src="img/planeacion.jpg" class="d-block w-100">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" data-aos="zoom-in-left">
+
+					<p> <i>"El desarrollador front-end es quien trae a la vida el diseño visual y de interfaz que le fue entregado."</i><br><br>
+						
+						Hace un tiempo hice un sitio web de una empresa de ropa. Al principio, más que reestructurar 
+						la página que ya tenían, que estaba hecha en joomla y ni siquiera era responsive, me puse a investigar cuál era el objetivo de esta web. 
+						¿Qué se quería hacer con ella?<br><br>
+
+						Entonces, investigué qué era lo que más utilizaban los usuarios. Como la página no tenía muchas estadísticas, tuve varias reuniones 
+						con los clientes. Así, identifiqué que los al entrar al sitio web no les era facil llegar a los productos, con eso en mente sabia que 
+						la experiencia del usuario debia ser la prioridad al reestructurarla. <br><br>
+
+						Pude hacer un buen diseño que cumplía con estas premisas y finalmente se mejoro en gran cantidad la conversion de usuarios a clientes finales.<br><br>
+
+						Para sintetizar, pude realizar un proceso bastante completo de desarrollo: ver cuál es el objetivo que se quiere cumplir con la nueva interfaz gráfica, 
+						hacer un diseño acorde a esos objetivos.<br><br>
+
+						Los clientes quedaron contentos, se mejoró bastante la imagen y el acceso desde los celulares ya era mucho más agradable para los usuarios.<br><br> 
+						
+						Desde el punto de vista del front-end, es muy importante entender cuál es el objetivo que se quiere conseguir con la interfaz, 
+						ya sea para una aplicación, página web o anuncio. Eso va a garantizar los resultados que se quieren alcanzar y también va a dar 
+						directrices al diseñador y al programador con respecto a cómo avanzar, en qué tienen que poner el foco y qué pruebas deben hacerse 
+						antes de hacer el lanzamiento.
+
+					</p>
+					<a href="documentos/Links Proyectos.pdf" target="_blank">
+					<button  type="button" class="btn btn-dark">ver links proyectos</button></a>
+				</div>
+			</div>
+		  </section>
+
+		  <section class="suscribrete" data-aos="flip-up">
+			<div class="row ">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<img src="img/suscribete.jpg" class="d-block  w-100">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 descargar">
+					<p>Recibe en tu email los mejores descuentos y todas nuestras novedades.<br> <strong>!suscríbete aquí¡</strong></p>
+					<form class="fsuscribete" method="POST" role="form">
+						<input type="email" required  id="email"/>
+						<input type="submit" value="Enviar" class="modal-input">
+					</form>
+						
+				</div>
+			</div>
+		  </section>
+	<footer>
+		<div class="row " data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<h3>¿Control para imprimir las categorías y subcategorías de
+					los productos?</h3>
+				<p>
+					<span> $product.CategoryName </span>
+					
+				</p>
+			</div>
+			
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<h3>¿Control que imprime el nombre del producto?</h3>
+			<p>
+
+				<span>< vtex.cmc:brandName/ ></span>
+				
+			</p>
+		</div>
+		<div class="row"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+			 
+			<h3>Diferencia entre un template y un subtemplate en VTEX</h3>
+			<p>
+			
+				<strong>Templates :</strong> son los archivos que contienen el código de las páginas de su web site,
+				son los que estructuran el código HTML y hacen referencia a archivos JavaScript y CSS para ser usados en las páginas del web site.
+				<br><br>
+				<strong>Sub Templates:</strong> elementos que van a aparecer en la mayoría (o en todas) las páginas de su web site, como footers, menús, headers y otros. Por eso, también poseen un repositorio propio.
+				
+			</p>
+		</div>
+	</div>
+
+
+	</footer>
+
+	<!-- jQuery and JS bundle w/ Popper.js -->
+	<script src="js/code.js"></script>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
+</body>
+</html>

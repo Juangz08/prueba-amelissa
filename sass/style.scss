@@ -1,0 +1,141 @@
+/* fuente general */
+* {
+    font-family: Courier, "Lucida Console", monospace;
+}
+
+/* Header */
+.menu-destopk{display: block;}
+.menu-movil{display: none;}
+
+
+nav.navbar.navbar-dark.fixed-top.navbar-expand-lg{
+    background-color: #040404d6 ;
+}
+@media only screen and (min-width:  780px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+    body > header > nav > div > div > ul > li > a > svg{ margin-right: 5px;}
+
+
+    /* slider */
+    .carousel-item {
+        height: 700px !important;  
+    }
+
+    /* section aptitudes */
+    .aptitudes{
+
+        background-color:white;
+        color: black;
+        padding: 60px 60px;
+    }
+
+    .progress-bar {
+        background-color: #060606;
+        }
+
+    .presentacion{
+    align-items: center;
+    }
+
+    .progress {
+        margin-bottom: 20px;
+    }
+    /* section historia */
+
+    .historia{
+        padding:60px 20px;
+    }
+
+    /* section suscribete */
+    .suscribrete{
+        background-color: rgba(128, 128, 128, 0.192);
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .descargar {
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: auto;
+    }
+
+
+    .modal{
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        overflow: auto;
+        background-color: black;
+        display: none;
+    }
+    .modal-content{
+        position: relative;
+        display: grid;
+        width: 60%;
+        height: 100%;
+        box-shadow:  0 5px 8px 0 black;
+    }
+    footer{
+        padding:30px 60px;
+    }
+
+}
+@media only screen and (max-width: 780px){
+
+    *{
+        font-size: 12px;
+    }
+
+    .menu-movil{display: block;position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: black;}
+    .menu-destopk{display: none;}
+    
+    button.navbar-toggler.collapsed {
+        background: black;
+    }
+    div#navbarToggleExternalContent {
+        width: 100vw;
+        padding: 0px 20px;
+        background: black;
+    }
+    button.navbar-toggler {
+        position: absolute;
+        right: 10px;
+        bottom: 10px; background: black;
+
+    }
+    .aptitudes , .historia,  .suscribrete{
+        padding-left: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .nombrej{
+        font-size: 20px;
+    }
+
+    .progress {
+        margin-bottom: 10px;
+    }
+    .progress-bar {
+        background-color: #060606;
+        }
+
+    .descargar {
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: auto;
+    }
+    .suscribrete{
+        background-color: rgba(128, 128, 128, 0.192);}
+}
